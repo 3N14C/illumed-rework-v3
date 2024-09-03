@@ -1,0 +1,24 @@
+.speed {
+background: rgb(7,8,10);
+background: linear-gradient(333deg, rgba(7,8,10,0.5788690476190477) 4%, rgba(151,125,230,0.10547969187675066) 68%);
+}
+
+.indiv {
+background: rgb(7,8,10);
+background: linear-gradient(333deg, rgba(7,8,10,0.5788690476190477) 4%, rgba(125,174,230,0.10547969187675066) 68%);
+}
+
+.quality {
+  background: rgb(7,8,10);
+background: linear-gradient(333deg, rgba(7,8,10,0.5788690476190477) 4%, rgba(230,125,154,0.10547969187675066) 68%);
+}
+
+.modernity {
+  background: rgb(7,8,10);
+background: linear-gradient(333deg, rgba(7,8,10,0.5788690476190477) 4%, rgba(229,230,125,0.10547969187675066) 68%);
+}
+
+.difficulty {
+  background: rgb(7,8,10);
+background: linear-gradient(333deg, rgba(7,8,10,0.5788690476190477) 4%, rgba(135,230,125,0.10547969187675066) 68%);
+}
