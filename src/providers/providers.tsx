@@ -15,7 +15,7 @@ export const Providers: FC<Props> = ({ children }) => {
 	return (
 		<QueryClientProvider client={queryClient}>
 			<LazyMotion features={domAnimation}>
-				<ReactLenis root>{children}</ReactLenis>
+				<ReactLenis root options={{duration: 3}}>{children}</ReactLenis>
 			</LazyMotion>
 		</QueryClientProvider>
 	)

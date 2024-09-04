@@ -7,9 +7,13 @@ import { ServiceList } from './service-list'
 export const ServiceSection: FC = () => {
 	return (
 		<div className=''>
-			<Title>наши услуги</Title>
+			<div className='max-w-[1440px] mx-auto'>
+				<Title>наши услуги</Title>
+			</div>
 
-			<ServiceList />
+			<div className='mt-20'>
+				<ServiceList />
+			</div>
 		</div>
 	)
 }

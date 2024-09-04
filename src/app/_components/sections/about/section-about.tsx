@@ -6,17 +6,7 @@ import { AboutList } from './about-list'
 
 export const AboutSection: FC = () => {
 	return (
-		<div className='h-screen flex items-center'>
-			{/* <div className='flex items-center justify-between w-full'>
-				<p className='text-6xl font-bold tracking-wider uppercase max-w-[700px] leading-relaxed'>
-					наши качества
-				</p>
-
-				<div className=''>
-					<ServicesList />
-				</div>
-      </div> */}
-
+		<div className='h-screen flex items-center max-w-[1440px] mx-auto'>
 			<div className='flex flex-col gap-10 w-full'>
 				<Title>наши качества</Title>
 

@@ -10,7 +10,7 @@ export const ServiceList: FC = () => {
 	const { scrollYProgress } = useScroll({
 		target: targetRef,
 	})
-	const x = useTransform(scrollYProgress, [0, 1], ['0%', '-55%'])
+	const x = useTransform(scrollYProgress, [0, 1], ['10%', `-${services.length * 27.8}%`])
 
 	return (
 		<div
@@ -19,7 +19,7 @@ export const ServiceList: FC = () => {
 		>
 			<div className='h-[100vh] sticky top-1/4 overflow-hidden'>
 				<m.div
-					style={{ x }}
+          style={{ x }}
 					className='flex items-center justify-between gap-20'
 				>
 					{services.map((service) => (

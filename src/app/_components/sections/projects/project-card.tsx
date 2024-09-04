@@ -29,7 +29,7 @@ export const ProjectCard: FC<Props> = ({ project }) => {
 				<p className=''>{project.description}</p>
 			</m.div>
 			<m.img
-				style={{ width }}
+        style={{ width, transition: 'width 0.1s linear' }}
 				src={project.image}
 				alt={project.title}
 				width={1000}

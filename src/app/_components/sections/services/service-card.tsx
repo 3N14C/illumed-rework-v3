@@ -12,7 +12,7 @@ export const ServiceCard: FC<Props> = ({ service }) => {
 	const Icon = icons[service.icon]
 
 	return (
-		<div className='border border-white/20 bg-gradient-to-tl from-[#977de6]/10 to-black/10 backdrop-blur-lg rounded-lg px-[70px] py-[50px] min-h-[600px]'>
+		<div className='border border-white/20 bg-gradient-to-tl from-[#977de6]/10 to-black/10 backdrop-blur-lg rounded-lg px-[70px] py-[50px] min-w-[800px] h-[500px]'>
 			<div className='flex flex-col items-start gap-10'>
 				<div className='border border-white/20 p-2 rounded-lg'>
 					<Icon

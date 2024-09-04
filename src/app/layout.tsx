@@ -1,5 +1,4 @@
 import { Header } from '@/components/header'
-import { AnimatedProgressBar } from '@/components/ui/animations/animate-progress-bar'
 import { Providers } from '@/providers/providers'
 import type { Metadata } from 'next'
 import { M_PLUS_Rounded_1c } from 'next/font/google'
@@ -25,14 +24,14 @@ export default function RootLayout({
 			<body className={inter.className}>
 				<Providers>
 					<div className='bg-[#07080a]'>
-						<AnimatedProgressBar>
-							<div className=''>
-								<div className='pt-10'>
-									<Header />
-								</div>
-								<div className=''>{children}</div>
+						{/* <AnimatedProgressBar> */}
+						<div className=''>
+							<div className='max-w-[1440px] mx-auto pt-10'>
+								<Header />
 							</div>
-						</AnimatedProgressBar>
+							<div className=''>{children}</div>
+						</div>
+						{/* </AnimatedProgressBar> */}
 					</div>
 				</Providers>
 			</body>

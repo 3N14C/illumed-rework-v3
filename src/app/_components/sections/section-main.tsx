@@ -7,7 +7,7 @@ import { FC } from 'react'
 
 export const MainSection: FC = () => {
 	return (
-		<div className='h-screen flex items-center justify-between'>
+		<div className='h-screen flex items-center justify-between max-w-[1440px] mx-auto'>
 			<div className='flex flex-col gap-20'>
 				<m.div
 					initial={{ opacity: 0, x: -40 }}
